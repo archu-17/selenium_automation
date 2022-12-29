@@ -1,0 +1,23 @@
+demo_set1= {"Delhi","Kolkata","Melbourne","Sydney"}
+demo_set2= {"Delhi","Kolkata","Melbourne","Sydney","New York","Lucknow"}
+print(demo_set1)
+# demo_set1.add("Gold Coast")
+# print(demo_set1)
+# # demo_set1.remove("Delhi")
+# # demo_set1.discard("Delhi")
+# demo_set1.pop()
+# demo_set1.clear()
+# print(demo_set1)
+# demo_set3=demo_set1.union(demo_set2)
+# print(demo_set3)
+# demo_set4=demo_set1.update(demo_set2)
+# print(demo_set4)
+# demo_set3=demo_set1.intersection(demo_set2)
+# print(demo_set3)
+demo_set1.symmetric_difference(demo_set2)
+print(demo_set1)
+demo_set2.difference_update(demo_set1)
+print(demo_set2)
+demo_set3=demo_set1.issuperset(demo_set2)
+print(demo_set3)
+
